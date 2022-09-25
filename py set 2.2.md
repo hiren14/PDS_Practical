@@ -1,4 +1,4 @@
-# Write a Pandas program to read a CSV file from a specified source and print the first 10 rows.
+# 1. Write a Pandas program to read a CSV file from a specified source and print the first 10 rows.
 
 
 ```python
@@ -21,7 +21,7 @@ print(data.head(10))
     9   0.23  Very Good     H     VS1   59.4   61.0    338  4.00  4.05  2.39
     
 
-# Write a Pandas program to read a dataset from diamonds Data Frame and print the last 6 rows. 
+#  2. Write a Pandas program to read a dataset from diamonds Data Frame and print the last 6 rows. 
 
 
 
@@ -41,7 +41,7 @@ print(data.tail(6))
     53939   0.75      Ideal     D     SI2   62.2   55.0   2757  5.83  5.87  3.64
     
 
-# Write a Pandas program to select a series from diamonds Data Frame. Print the content of the series
+# 3. Write a Pandas program to select a series from diamonds Data Frame. Print the content of the series
 
 
 ```python
@@ -65,7 +65,7 @@ print(data['price'])
     Name: price, Length: 53940, dtype: int64
     
 
-# Write a Pandas program to find the number of rows and columns and the data type of each column of the diamonds Data frame. 
+# 4. Write a Pandas program to find the number of rows and columns and the data type of each column of the diamonds Data frame. 
 
 
 ```python
@@ -90,7 +90,7 @@ print(data.dtypes)
     dtype: object
     
 
-# Write a Pandas program to rename two of the columns of the diamonds Data frame. 
+# 5. Write a Pandas program to rename two of the columns of the diamonds Data frame. 
 
 
 ```python
@@ -120,7 +120,7 @@ print(data.head(4))
     3  4.23  2.63  
     
 
-# Write a Pandas program to Sort the diamonds data based on length ascending and descending both
+# 6. Write a Pandas program to Sort the diamonds data based on length ascending and descending both
 
 
 ```python
@@ -148,7 +148,7 @@ print(decending.head(3))
     25998   4.01  Premium     I      I1   61.0   61.0  15223  10.14  10.10  6.17
     
 
-# Write a Pandas program to remove the second column of the diamonds Data frame. 
+# 7. Write a Pandas program to remove the second column of the diamonds Data frame. 
 
 
 
@@ -175,7 +175,7 @@ print(data.head())
     4   0.31     J     SI2   63.3   58.0    335  4.34  4.35  2.75
     
 
-# Write a Pandas program to find the details of the diamonds where depth>61, price>340, and cut=’Good’.
+# 8. Write a Pandas program to find the details of the diamonds where depth>61, price>340, and cut=’Good’.
 
 
 ```python
@@ -205,7 +205,7 @@ print(data.head(3))
     20    0.3  Good     I     SI2   63.3   56.0    351  4.26  4.30  2.71
     
 
-# Write a Pandas program to calculate the count, the minimum, and maximum price for each cut of diamonds Data Frame. 
+# 9.Write a Pandas program to calculate the count, the minimum, and maximum price for each cut of diamonds Data Frame. 
 
 
 
@@ -236,7 +236,7 @@ print(data.groupby('cut').price.agg(['count', 'min', 'max']))
     Very Good  12082  336  18818
     
 
-# Write Pandas program to Demonstrate handling of Missing values (Remove column, Remove rows and Filling values Etc.)
+# 10. Write Pandas program to Demonstrate handling of Missing values (Remove column, Remove rows and Filling values Etc.)
 
 
 ```python
@@ -404,7 +404,7 @@ print(updated_data[updated_data['table'].isna()])
     Index: []
     
 
-# Write a program using pandas to display content of XML file. (Create any XML file of your choice) 
+# 11. Write a program using pandas to display content of XML file. (Create any XML file of your choice) 
 
 
 ```python
@@ -439,7 +439,7 @@ print(out_df)
     3    tur   tur@contact.realtk.com     A  20
     
 
-#  Write a program to demonstrate the Groupby, Join and Merge. 
+# 12. Write a program to demonstrate the Groupby, Join and Merge. 
 
 
 ```python
@@ -523,7 +523,7 @@ print(f)
     c         6
     
 
-# Write a program to create Class Student and demonstrate the magic Function. 
+# 13. Write a program to create Class Student and demonstrate the magic Function. 
 
 
 
@@ -652,7 +652,7 @@ else:
     Valid email address
     
 
-# Write a program to read an HTML file using the beautiful soup library and parse the
+# 2 Write a program to read an HTML file using the beautiful soup library and parse the
 ## following information.
 ### a. To read all the hyperlinks
 ### b. To real head part
@@ -969,7 +969,7 @@ for i in table:
     </table>
     
 
-# Write NLP program using NLTK library to read text data from website and convert into appropriate feature table using Bag of words method.
+# 3  Write NLP program using NLTK library to read text data from website and convert into appropriate feature table using Bag of words method.
 
 
 ```python
